@@ -1,0 +1,18 @@
+#!/bin/bash
+
+ia=5
+ib=2
+
+echo "-----"
+echo "ia=$ib"
+
+echo "-----"
+echo `expr $ia + $ib`
+
+echo "-----"
+ic=$[ia+ib]
+echo $ic
+
+echo "-----"
+id=$((ia+ib))
+echo $id
